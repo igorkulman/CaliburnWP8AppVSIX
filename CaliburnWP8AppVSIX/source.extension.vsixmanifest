@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CaliburnWP8AppVSIX..21bc8f30-ac10-479b-9d24-4f3a63a94c8d" Version="1.0" Language="en-US" Publisher="Igor Kulman" />
+    <DisplayName>Windows Phone Caliburn.Micro application</DisplayName>
+    <Description xml:space="preserve">Windows Phone 8 application template with Caliburn.Micro and Fody</Description>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.PNG</PreviewImage>
+    <Tags>windows phone, caliburn</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:TargetPath="|CaliburnWP8App;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" d:ProjectName="CaliburnWP8App" />
+  </Assets>
+</PackageManifest>

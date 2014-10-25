@@ -1,0 +1,8 @@
+/packages
+/CaliburnWP8AppVSIX/obj
+/CaliburnWP8AppVSIX/bin
+/CaliburnWP8AppVSIX/*.user
+/CaliburnWP8App/obj
+/CaliburnWP8App/bin
+/CaliburnWP8App/*.user
+/*.suo
