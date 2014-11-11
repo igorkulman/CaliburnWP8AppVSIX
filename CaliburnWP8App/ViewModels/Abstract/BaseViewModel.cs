@@ -9,13 +9,13 @@ namespace $safeprojectname$.ViewModels.Abstract
 {
     public abstract class BaseViewModel: Screen
     {
-        private readonly INavigationService _navigationService;
-        private readonly IEventAggregator _eventAggregator;
+        protected readonly INavigationService NavigationService;
+        protected readonly IEventAggregator EventAggregator;
 
         protected BaseViewModel(INavigationService navigationService, IEventAggregator eventAggregator)
         {
-            _navigationService = navigationService;
-            _eventAggregator = eventAggregator;
+            NavigationService = navigationService;
+            EventAggregator = eventAggregator;
         }
     }
 }
